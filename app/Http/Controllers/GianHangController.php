@@ -26,7 +26,6 @@ class GianHangController extends Controller
         return view('app.gianhang.index', [
             'title' => 'Đăng ký gian hàng',
             'categories' => Loai::all(),
-            'van_chuyens' => VanChuyen::all(),
         ]);
     }
 
